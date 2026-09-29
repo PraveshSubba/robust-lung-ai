@@ -1,0 +1,19 @@
+model,split,sensitivity,specificity,icbhi_score,notes
+Random Forest + MFCC,val,23.83,81.45,52.64,
+Simple CNN,val,78.94,28.51,53.72,best epoch by val ICBHI Score
+Random Forest + MFCC,test,18.7,91.4,55.05,
+Simple CNN,test,74.58,41.89,58.23,
+AST + Cross-Entropy,val,67.45,74.51,70.98,best epoch by val ICBHI Score
+AST + Cross-Entropy,test,56.51,76.87,66.69,
+AST + Focal Loss,val,61.49,79.49,70.49,gamma=2.0
+AST + Focal Loss,test,48.32,83.22,65.77,gamma=2.0
+AST + Focal + SupCon,val,66.81,71.49,69.15,lambda_supcon=0.5
+AST + Focal + SupCon,test,43.49,88.86,66.17,lambda_supcon=0.5
+AST + Focal + baseline,val,54.68,85.97,70.33,
+AST + Focal + baseline,test,48.53,79.69,64.11,
+AST + Focal + specaugment,val,80.21,62.29,71.25,
+AST + Focal + specaugment,test,61.55,66.71,64.13,
+AST + Focal + mixup,val,66.38,75.11,70.75,
+AST + Focal + mixup,test,50.42,81.66,66.04,
+AST + Focal + both,val,74.47,63.95,69.21,
+AST + Focal + both,test,66.6,67.84,67.22,

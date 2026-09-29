@@ -1,0 +1,27 @@
+
+# Core scientific and data processing
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+
+# Audio processing
+librosa
+soundfile
+
+# Deep learning and AST
+torch
+torchaudio
+transformers
+
+# Dataset and notebook utilities
+datasets
+jupyter
+ipykernel
+tqdm
+
+# Gradio application and Hugging Face checkpoint download
+gradio
+huggingface-hub
